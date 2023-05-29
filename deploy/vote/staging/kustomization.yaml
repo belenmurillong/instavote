@@ -22,3 +22,11 @@ commonLabels:
 
 commonAnnotations:
   supported-by: "belen@example.com"
+
+
+
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=STAGING
+      - OPTION_B=DEV
