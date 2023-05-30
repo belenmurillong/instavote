@@ -14,7 +14,7 @@ replicas:
 
 images:
   - name: schoolofdevops/vote
-    newTag: v5
+    newTag: v6
 
 commonLabels:
   project: instavote
